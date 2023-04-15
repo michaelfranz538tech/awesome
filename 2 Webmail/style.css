@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+#container{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 100px;
+   
+}
+input{
+    width: 240px;
+    padding: 8.5px ;
+    margin: 6px 25px;
+    border-radius: 5px;
+    border-color: darkgray;
+    border: 1.8px darkgray solid;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+input:hover{
+    border: 2px darkgray solid;
+}
+input:focus{
+    background-color:#e8f0fe;
+    border:1px darkgray solid;
+    
+}
+.submit button{
+    width: 293px;
+    height: 2.2rem;
+    border: 1px black solid;
+    border-radius: 5px ;
+    margin: 25px 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #179bd7;
+    font-size: 16px;
+}
+
+.submit button:hover{
+
+    background-color: navy;
+}
+.check1{
+    display:flex;
+    width: 400px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 35px;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    height: 22px;
+    border: 2px solid black;
+    width: 30px;
+    position: relative;
+    bottom: 9px;
+}
+.icon{
+    position: relative;
+    font-size: 20px;
+    padding: 4.4px;
+    margin: 20px 32px;
+    color: #8fa7ad;
+    top: 36px;   
+}
+
+input[type="email"]{
+    padding-left: 42px;
+    font-size: small;
+}
+
+input[type="password"]{
+    padding-left: 42px;
+    font-size: small;
+}
+
+.footer{
+
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;    
+    position: relative;
+    top:120px;
+    justify-content: center;
+    align-items: center;
+}
+img {
+   
+   padding-bottom: 0px;
+   
+}
+
+.input_1 label{
+
+    position: relative;
+    top: 25px ;
+    margin-left: 27px;
+}
+.input_2 label{
+
+    position: relative;
+    top: 25px ;
+    margin-left: 27px;
+}
+
+h5{
+    color: navy;
+    position: relative;
+    padding-inline: 10px;
+    display: inline;
+    top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    cursor: pointer;
+    left: 500px;
+}
+h5:hover{
+    text-decoration: underline;
+    color: black;
+ }
